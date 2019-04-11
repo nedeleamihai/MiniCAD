@@ -1,0 +1,10 @@
+clean:	
+	rm drawing.png	
+	rm *.class
+
+build:	
+	javac *.java	
+	
+run:	
+	java Main ./input/*.in  
+	
